@@ -28,7 +28,7 @@ if filtrado.empty:
     st.warning("Selecciona al menos un color y un año.")
     st.stop()
 
-
+st.image("sol.jpg", caption="Imagen del Sol", use_container_width=True)
 
 # --- Métricas ---
 col1, col2 = st.columns(2)
